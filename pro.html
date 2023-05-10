@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 80px 80px 80px 80px;
+            grid-template-columns: 80px 80px 80px 80px;
+            grid-gap: 3px;
+        }
+
+        .grid-item1 {
+            background: #FFC106;
+            text-align: center;
+            align-items: center;
+            border: #03a9f4 5px solid;
+            border-radius: 20px;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .grid-item2 {
+            background: white;
+            text-align: center;
+            border: #03a9f4 5px solid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border-radius: 20px;
+        }
+
+        .grid-item3 {
+            background: white;
+            text-align: center;
+            border: #03a9f4 5px solid;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            border-radius: 20px;
+        }
+
+        .grid-item4 {
+            background: white;
+            text-align: center;
+            align-items: center;
+            border: #03a9f4 5px solid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border-radius: 20px;
+        }
+
+        .grid-item5 {
+            background: white;
+            text-align: center;
+            border: #03a9f4 5px solid;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">
+            <p>Percentil 99</p>
+        </div>
+        <div class="grid-item2">
+            <p>Mes Anterior</p>
+        </div>
+        <div class="grid-item3">
+            <p>Mes Actual</p>
+        </div>
+        <div class="grid-item4">
+            <p>1.90</p>
+        </div>
+        <div class="grid-item5">
+            <p>1.18</p>
+        </div>
+    </div>
+</body>
+
+</html>
